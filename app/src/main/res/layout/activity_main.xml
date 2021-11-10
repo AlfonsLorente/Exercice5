@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout_game"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:columnCount="2"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:useDefaultMargins="true"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_height="80dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:background="#FF33B5E5"
+            android:gravity="center"
+            android:onClick="startFleetingImg"
+            android:text="Fleeting Image"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:background="#FF33B5E5"
+            android:gravity="center"
+            android:text="License"
+            android:layout_columnWeight="1"
+            android:onClick="startLicense"
+            android:layout_height="80dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="#FF33B5E5"
+            android:gravity="center"
+            android:text="CheckBox"
+            android:layout_columnWeight="1"
+            android:onClick="startCheckBoxClass"
+            android:layout_height="80dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="#FF33B5E5"
+            android:gravity="center"
+            android:text="RPS_Game"
+            android:layout_columnWeight="1"
+            android:onClick="startRPSGame"
+            android:layout_height="80dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="#FF33B5E5"
+            android:gravity="center"
+            android:text="L.L.E."
+            android:layout_columnWeight="1"
+            android:onClick="startLinearLayoutExample"
+            android:layout_height="80dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="#FF33B5E5"
+            android:gravity="center"
+            android:text="L.L.B.M."
+            android:layout_columnWeight="1"
+            android:onClick="startLinearLayoutBoxModel"
+            android:layout_height="80dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="#FF33B5E5"
+            android:gravity="center"
+            android:text="R.L.E."
+            android:layout_columnWeight="1"
+            android:onClick="startRelativeLayoutExample"
+            android:layout_height="80dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="#FF33B5E5"
+            android:gravity="center"
+            android:text="Overlap"
+            android:layout_columnWeight="1"
+            android:onClick="startOverlap"
+            android:layout_height="80dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="#FF33B5E5"
+            android:gravity="center"
+            android:text="T.L.E."
+            android:layout_columnWeight="1"
+            android:onClick="startTableExample"
+            android:layout_height="80dp"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="#FF33B5E5"
+            android:gravity="center"
+            android:text="Scrollwork"
+            android:layout_columnWeight="1"
+            android:onClick="startScrollwork"
+            android:layout_height="80dp"
+            android:textStyle="bold" />
+
+    </GridLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
